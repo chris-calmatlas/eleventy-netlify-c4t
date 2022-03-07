@@ -25,7 +25,7 @@ collections:
   - name: "pages"
     label: "Page"
     folder: "pages"
-    create: false # Change to true to allow editors to create new pages
+    create: true # Change to true to allow editors to create new pages
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -38,3 +38,13 @@ collections:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
+    # Features
+    - name: "features"
+      label: "Features"
+      folder: "features"
+      create: true
+      slug: "{{slug}}"
+      fields: # The fields for each document, usually in front matter
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+        - { label: "Body", name: "body", widget: "markdown" }
