@@ -5,8 +5,7 @@
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
-    "serve": "npx eleventy --serve",
-    "localcms": "npx netlify-cms-proxy-server",
+    "serve": "concurrently --kill-others \"npx netlify-cms-proxy-server\" \"npx eleventy --serve\"",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
@@ -20,6 +19,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
+    "concurrently": "^7.0.0",
     "luxon": "^2.3.0",
     "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^8.4.1",
