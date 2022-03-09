@@ -1,0 +1,8 @@
+{
+  "layout": "layouts/feature.njk",
+  "permalink": "posts/{{ title | slug }}/index.html",
+  "author": "Anonymous",
+  "tags": [
+    "features"
+  ]
+}
