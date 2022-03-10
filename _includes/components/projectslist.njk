@@ -1,0 +1,18 @@
+<section id="projects" class="projects">
+	{% for project in projectslist %}
+		<article class="project">
+			<header>
+				<img src="{{ project.data.image }}" alt="{{ project.data.imgAlt }}">
+				<a href="{{ project.url | url }}">
+					{% if project.data.title %}
+						{{ project.data.title }}
+					{% else %}
+						Cool stuff
+					{% endif %}
+				</a>
+			</header>
+			<p>{{ project.data.summary }}</p>
+			<footer><a href="{{ project.data.link }}">{{ project.data.linkText }} <span>>></span></a></footer>
+		</article>
+	{% endfor %}
+</section>
