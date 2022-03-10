@@ -15,7 +15,7 @@ Planning on re-building with Wordpress if time permits as the CMS functions are 
 - [ ] Delete remaining content and add content from existing page
 - [ ] Validate that all no links are broken
 - [ ] Add styles to support larger screens (Started mobile first)
-    -[ ] Add .js to make hero and features scroll
+    - [ ] Add .js to make hero and features scroll
 - [ ] Test page and post creation and build todo for CMS
 
 # Eleventy Netlify Boilerplate
