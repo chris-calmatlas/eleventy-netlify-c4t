@@ -45,10 +45,10 @@ collections:
     label: "Feature"
     folder: "features"
     create: true # Change to true to allow editors to create new features
-    slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Image", name: "image", widget: "image"}
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "LinkText", name: "linkText", widget: "string" }
+      - { label: "Alt Text", name: "imgAlt", widget: "string"}
+      - { label: "Snippet", name: "snippet", widget: "string" }
+      - { label: "Link Text", name: "linkText", widget: "string" }
       - { label: "Link", name: "link", widget: "string" }

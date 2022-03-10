@@ -1,5 +1,11 @@
+---
+layout: layouts/base.njk
+section: feature
+---
+
 <article class="feature">
-    <h3>{{ title }}</h3>
-    {{ layoutContent | safe }}
-    <a href="{{ link }}>{{ linkText }}</a>
+    <img src="{{ feature.data.image }}" alt="{{ feature.data.imgAlt }}">
+    <h3>{{ feature.data.title }}</h3>
+    <p>{{ feature.data.snippet }}</p>
+    <a href="{{ feature.data.link }}">{{ feature.data.linkText }}</a> <span>>></span>
 </article>

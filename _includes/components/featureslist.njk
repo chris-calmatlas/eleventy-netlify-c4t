@@ -1,36 +1,12 @@
-<section>
-	{% for feature in featureslist | reverse %}
-		<p>THis should happne once.</p>
-		<article{% if feature.url == url %} data-current="current item"{% endif %}>
-			<h3>
-				<a href="{{ feature.url | url }}">
-					{% if feature.data.title %}
-						{{ feature.data.title }}
-					{% else %}
-						Untitled
-					{% endif %}
-				</a>
-			</h3>
-			{% if feature.data.summary %}
-				<p>
-					{{ feature.data.summary }}
-				</p>
-			{% endif %}
-			<p>
-				<time datetime="{{ feature.date | machineDate }}">
-					<small>{{ feature.date | readableDate }} by <a href="/authors/{{ feature.data.author | slug }}/">{{ feature.data.author }}</a></small>
-				</time>
-			</p>
-			{% if feature.data.tags %}
-				<p>
-					{% for tag in feature.data.tags %}
-		  			{%- if tag != "feature" -%}
-		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
-		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-		  			{%- endif -%}
-					{% endfor %}
-				</p>
-			{% endif %}
+<section id="features" class="features">
+	{% for feature in featureslist %}
+		<article class="feature">
+			<header>
+				<img src="{{ feature.data.image }}" alt="{{ feature.data.imgAlt }}">
+				<h3>{{ feature.data.title }}</h3>
+			</header>
+			<p>{{ feature.data.snippet }}</p>
+			<footer><a href="{{ feature.data.link }}">{{ feature.data.linkText }} <span>>></span></a></footer>
 		</article>
 	{% endfor %}
 </section>

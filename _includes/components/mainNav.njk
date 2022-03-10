@@ -1,13 +1,13 @@
-<nav class="main-nav">
+<nav class="mainNav">
   <div>
     Logo Here
   </div>
-  <input id="menu-toggle" type="checkbox" />
-  <label class='menu-button-container' for="menu-toggle">
-    <div class='menu-button'></div>
+  <input id="menuToggle" type="checkbox" />
+  <label class='menuButtonContainer' for="menuToggle">
+    <div class='menuButton'></div>
   </label>
   {% set navPages = collections.all | eleventyNavigation %}
-  <ul class="nav-items">
+  <ul class="navItems">
   {%- for entry in navPages %}
     <li>
       <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>

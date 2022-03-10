@@ -3,6 +3,6 @@
   "permalink": "posts/{{ title | slug }}/index.html",
   "author": "Anonymous",
   "tags": [
-    "features"
+    "feature"
   ]
 }
