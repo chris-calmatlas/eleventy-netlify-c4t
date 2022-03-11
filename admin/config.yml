@@ -40,7 +40,8 @@ collections:
           - { label: "Key", name: "key", widget: "string", default: "{title}"}
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Summary", name: "summary", widget: "string", required: false }
+      - { label: "Second Section Header", name: "secondHeader", widget: "string", required: false }
+      - { label: "Second Section", name: "secondSection", widget: "string", required: false }
   #features
   - name: "features"
     label: "Feature"

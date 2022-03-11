@@ -18,6 +18,15 @@
 			{{ layoutContent | safe }}
 		</main>
 
+		{% if secondSection %}
+		<section class="nextSection">
+			<header>
+				<h2>{{ secondHeader }}<h2>
+			</header>
+    		<p>{{ secondSection }}</p>
+		</section>
+		{% endif %}
+		
 		{% include "components/footer.njk" %}
 
 	</body>

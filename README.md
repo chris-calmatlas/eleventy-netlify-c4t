@@ -8,7 +8,7 @@ Planning on re-building with Wordpress if time permits as the CMS functions are 
 - [x] Format navbar
 - [x] Add logo and hero to homepage
 - [x] Create feature collection and add it to homepage
-- [ ] Get Projects page to mimic blog but using the projects collection instead
+- [x] Get Projects page to mimic blog but using the projects collection instead
 - [ ] Get projects summary on homepage by pulling it from an existing page (Proof of concept to yank parts of a page to another page)
 - [ ] Figure out why hero does not show on other pages
 - [ ] Make hero modular by adding to its own component
