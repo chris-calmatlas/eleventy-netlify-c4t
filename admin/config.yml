@@ -20,9 +20,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Author", name: "author", widget: "string", required: false }
-      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Preview Image", name: "image", widget: "image"}
+      - { label: "Preview Image Alt Text", name: "imgAlt", widget: "string"}
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Is Blog Post", name: "isPost", widget: "hidden", default: true }
   - name: "projects" # Used in routes, e.g., /admin/collections/blog
     label: "Project" # Used in the UI
     folder: "projects" # The path to the folder where the documents are stored
@@ -31,12 +34,13 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", required: false}
       - { label: "Preview Image", name: "image", widget: "image"}
       - { label: "Preview Image Alt Text", name: "imgAlt", widget: "string"}
-      - { label: "Author", name: "author", widget: "string", required: false}
-      - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", default: ["project"] }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Is Project", name: "isProject", widget: "hidden", default: true }
   # Our pages e.g. About
   - name: "pages"
     label: "Page"
@@ -71,3 +75,4 @@ collections:
       - { label: "Snippet", name: "snippet", widget: "string" }
       - { label: "Link Text", name: "linkText", widget: "string" }
       - { label: "Link", name: "link", widget: "string" }
+      - { label: "Is Feature", name: "isFeature", widget: "boolean", default: true, hidden: true }

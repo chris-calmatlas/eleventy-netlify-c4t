@@ -6,4 +6,5 @@ snippet: First and third Tuesdays. Casual meetups for geeks, activists, policy
   makers, and journalists.
 linkText: Our calendar
 link: https://www.meetup.com/Code-for-Tucson/
+isFeature: true
 ---
