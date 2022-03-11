@@ -1,11 +1,14 @@
 ---
 title: WizardMaker
+date: 2022-03-11T19:46:41.817Z
 image: /static/img/wizardmaker.png
 imgAlt: Wizard Maker
 summary: "The purpose of this system is to make it much easier to create high
   quality, computer-assisted, step-by-step instructions (commonly called
   wizards). We have some preliminary evidence that sustainability groups and
   other non-profits would benefit from such a tool. "
+tags:
+  - highlight
 ---
 Project Lead: Paul Tynan
 

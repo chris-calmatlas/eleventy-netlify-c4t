@@ -1,0 +1,36 @@
+{% set collectionList = collections[collectionName] %}
+<section id="{{ collectionName }}" class="{{ collectionName }}">
+	{% for item in collectionList | reverse %}
+		<article{% if item.url == url %} data-current="current item"{% endif %} class="{{ collectionName }}">
+			<h3>
+				<a href="{{ item.url | url }}">
+					{% if item.data.title %}
+						{{ item.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			{% if item.data.summary %}
+				<p>
+					{{ item.data.summary }}
+				</p>
+			{% endif %}
+			<p>
+				<time datetime="{{ item.date | machineDate }}">
+					<small>{{ item.date | readableDate }} by <a href="/authors/{{ item.data.author | slug }}/">{{ item.data.author }}</a></small>
+				</time>
+			</p>
+			{% if item.data.tags %}
+				<p>
+					{% for tag in item.data.tags %}
+		  			{%- if tag != "{{ collectionName }}" -%}
+		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+		  			<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+		  			{%- endif -%}
+					{% endfor %}
+				</p>
+			{% endif %}
+		</article>
+	{% endfor %}
+</section>

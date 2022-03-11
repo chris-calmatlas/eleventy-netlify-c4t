@@ -1,9 +1,12 @@
 ---
 title: National Day of Civic Hacking 2016
+date: 2022-03-11T19:46:32.071Z
 image: /static/img/civic-hack-day-2016.jpg
 imgAlt: Civic Day
 summary: Code for Tucson gathered on the University of Arizona campus on June 4,
   2016 to take part in the National Day of Civic Hacking 2016
+tags:
+  - highlight
 ---
 Project Lead: Inara Makhmudova
 

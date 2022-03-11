@@ -1,11 +1,14 @@
 ---
 title: Community Share
+date: 2022-03-11T19:45:39.280Z
 image: /static/img/communityshare.png
 imgAlt: Community Share
 summary: Community Share is a project to connect educators and professionals
   with the goal of *“Inspiring our next generation of learners &
   leaders.”* Volunteer your time with a local classroom or find professionals in
   fields related to your lessons that can help engage your students.
+tags:
+  - highlight
 ---
 Project Lead: Kristin Wisneski-Blum, Ben Reynwar & Josh Schachter
 

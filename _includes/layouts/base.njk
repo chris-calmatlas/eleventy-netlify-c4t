@@ -16,18 +16,15 @@
 
 		<main>
 			{{ layoutContent | safe }}
+			{% if hasSecond %}
+				{% include "components/secondSection.njk" %}
+			{% endif %}
+			{% if hasCollection and collectionName %}
+				{% include "components/collectionList.njk" %}
+			{% endif %}
 		</main>
-
-		{% if secondSection %}
-		<section class="nextSection">
-			<header>
-				<h2>{{ secondHeader }}<h2>
-			</header>
-    		<p>{{ secondSection }}</p>
-		</section>
-		{% endif %}
 		
-		{% include "components/footer.njk" %}
+		{% include "components/pageFooter.njk" %}
 
 	</body>
 
