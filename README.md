@@ -9,12 +9,12 @@ Planning on re-building with Wordpress if time permits as the CMS functions are 
 - [x] Add logo and hero to homepage
 - [x] Create feature collection and add it to homepage
 - [x] Get Projects page to mimic blog but using the projects collection instead
-- [ ] Get projects summary on homepage by pulling it from an existing page (Proof of concept to yank parts of a page to another page)
-- [ ] Figure out why hero does not show on other pages
+- [x] Figure out why hero does not show on other pages
+- [ ] Get projects summary on homepage by pulling it from an existing page
 - [ ] Make hero modular by adding to its own component
 - [ ] Delete remaining content and add content from existing page
 - [ ] Validate that all no links are broken
-- [ ] Add styles to support larger screens (Started mobile first)
+- [ ] Fix mobile styles and add styles to support larger screens
     - [ ] Add .js to make hero and features scroll
 - [ ] Test page and post creation and build todo for CMS
 
