@@ -19,7 +19,7 @@ Posts or projects given the "highlight" tag will be placed on the homepage.
 - [x] Figure out why hero does not show on other pages
 - [x] Get projects summary on homepage by pulling it from an existing page
 - [x] Finish combining post/project/feature lists .njk files into collectionList.njk
-- [ ] Make hero modular by adding to its own component
+- [x] Make hero modular by adding to its own component
 - [ ] Delete remaining content and add content from existing page
 - [ ] Validate that all no links are broken
 - [ ] Fix mobile styles and add styles to support larger screens
