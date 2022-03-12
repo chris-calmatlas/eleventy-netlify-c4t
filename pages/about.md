@@ -13,11 +13,11 @@ eleventyNavigation:
 
 ## What is Code for Tucson?
 
-Code for Tucson is a Code for America Brigade located in Tucson, Arizona. Founded in 2014, we are a a non-partisan, non-political group of volunteer [civic hackers](http://www.codeforamerica.org/blog/2013/05/06/what-is-a-civic-hacker/) working together to solve local issues and help people engage with the city. We host twice-monthly hacknights and other events to gather, discuss, and get stuff done.
+Code for Tucson is a Code for America Brigade located in Tucson, Arizona. Founded in 2014, we are a a non-partisan, non-political group of volunteer [civic hackers](https://codeforamerica.org/news/what-is-civic-hacking/) working together to solve local issues and help people engage with the city. We host twice-monthly hacknights and other events to gather, discuss, and get stuff done.
 
 We're looking to bring people with all different skill sets together to maximize our potential. Civic hackers aren't just developers—they're journalists, lawyers, designers, and interested citizens in general. The more community participation, the better.
 
-Learn more about the CfA Brigade program [here](http://www.codeforamerica.org/brigade/).
+Learn more about the CfA Brigade program [here](https://brigade.codeforamerica.org/).
 
 ## Leadership Team
 

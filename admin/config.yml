@@ -76,3 +76,10 @@ collections:
       - { label: "Link Text", name: "linkText", widget: "string" }
       - { label: "Link", name: "link", widget: "string" }
       - { label: "Is Feature", name: "isFeature", widget: "boolean", default: true, hidden: true }
+  - name: "footer"
+    label: "Footer Elements"
+    folder: "footerElements"
+    create: true
+    fields:
+      - { label: "Content", name: "content", widget: "markdown"}
+      - { label: "Display Order (1-5)", name: "order", widget: "number" }

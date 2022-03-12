@@ -20,8 +20,8 @@ Posts or projects given the "highlight" tag will be placed on the homepage.
 - [x] Get projects summary on homepage by pulling it from an existing page
 - [x] Finish combining post/project/feature lists .njk files into collectionList.njk
 - [x] Make hero modular by adding to its own component
-- [ ] Delete remaining content and add content from existing page
-- [ ] Validate that all no links are broken
+- [x] Delete remaining content and add content from existing page (Leave a couple generic blog posts)
+- [x] Validate that all no links are broken (No updates to content, just fixed broken links)
 - [ ] Fix mobile styles and add styles to support larger screens
     - [ ] Add .js to make hero and features scroll
 - [ ] Test page and post creation and build todo for CMS
