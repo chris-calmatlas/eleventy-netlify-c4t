@@ -5,13 +5,7 @@ permalink: /testing-embeds/index.html
 eleventyNavigation:
   key: testing embeds
   order: 0
-secondSection: <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Emily
-  says &quot;you&#39;ve got this!&quot; 💜 <a
-  href="https://t.co/VK5j8wyx77">pic.twitter.com/VK5j8wyx77</a></p>&mdash; Mike
-  Aparicio (@peruvianidol) <a
-  href="https://twitter.com/peruvianidol/status/1511894868716630021?ref_src=twsrc%5Etfw">April
-  7, 2022</a></blockquote> <script async
-  src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+secondSection: ""
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -22,3 +16,5 @@ secondSection: <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Emily
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iik25wqIuFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Emily says &quot;you&#39;ve got this!&quot; 💜 <a href="https://t.co/VK5j8wyx77">pic.twitter.com/VK5j8wyx77</a></p>&mdash; Mike Aparicio (@peruvianidol) <a href="https://twitter.com/peruvianidol/status/1511894868716630021?ref_src=twsrc%5Etfw">April 7, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
