@@ -1,9 +1,9 @@
 ---
 title: Testing embeds
 date: 2022-04-07T02:40:56.618Z
-permalink: /{title}/index.html
+permalink: /testing-embeds/index.html
 eleventyNavigation:
-  key: "{title}"
+  key: testing embeds
   order: 0
 secondSection: <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Emily
   says &quot;you&#39;ve got this!&quot; 💜 <a
